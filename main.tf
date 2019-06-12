@@ -1,6 +1,7 @@
 # Last Amazon Linux
 data "aws_ami" "ephemeral_instance_ami" {
   most_recent = true
+  owners = "137112412989"
 
   filter {
     name   = "name"
